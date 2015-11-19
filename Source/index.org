@@ -1,0 +1,34 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+
+#+TITLE: 
+#+AUTHOR: Clinton Delport
+#+OPTIONS: toc:nil f:nil author:nil num:nil creator:nil timestamp:nil 
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/delport_flyer">Fork me on GitHub</a>
+</div>
+<center>
+<br>
+<img src=img/inspiration.jpg width=50%>
+</center>
+#+END_HTML
+* [[file:1.html][Project 1 - Acrylic Clock]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+* [[file:2.html][Project 2 - Marble Run ]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+* [[file:3.html][Project 3 - Wackano Extension]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
