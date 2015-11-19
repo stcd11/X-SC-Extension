@@ -6,7 +6,7 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Wackano Extended
+#+TITLE: 555 Astable Multivibrator
 #+AUTHOR: Clinton Delport
 
 #+BEGIN_HTML
