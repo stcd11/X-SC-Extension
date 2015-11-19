@@ -115,7 +115,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: build
 :END:
 - Before you can solder or place your components, you need to prepare the veroboard.
-- First, you will need to break the track under the 555 IC. This can be done using a track break of using a countersink tool as I have below.
+- First, you will need to break the track under the 555 IC. This can be done using a track break or using a countersink tool as shown below.
 [[./img/countersink555.jpg]]
 - You will now need to drill 2 holes for the battery wire using a 2mm drill bit.
 [[./img/Drill555.jpg]]
@@ -128,3 +128,5 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 [[./img/complete555.jpg]]
 [[./img/completesolder555.jpg]] 
 [[./img/555vid.gif]]
+
+- [[./index.html][Back to homepage]]
