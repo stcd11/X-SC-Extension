@@ -106,6 +106,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: activity
 :END:
 - Using DIYlc, design your own [[http://www.electronics-tutorials.ws/waveforms/555_oscillator.html][555 Astable]] circuit.
+[[./img/Circuit555.JPG]]
 - You can find DIYlc [[G:\Systems%20and%20Control\Student%20Home%20software\DIYlc][here]] on the open drive *G:\Systems and Control\Student Home software\DIYlc*.
 - below is an example, but you can create your own design.
 [[./img/555_stripboard.JPG]]
