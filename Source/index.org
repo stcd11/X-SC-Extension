@@ -36,3 +36,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      
+* [[file:~/public_html/projects/mp3.html][Project 5 - MP3 player]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:      
