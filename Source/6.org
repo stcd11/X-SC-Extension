@@ -108,6 +108,8 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - When designing a PIC circuit using a breadboard, you will need to be able to download your program to the PIC to test it.
 - To do this, we will need to build an off-board download socket.
 - Step one, cut a piece of veroboard, using the 3-in-1 cutter, the board needs to be cut 6 X 8 holes.
+- *Make sure you cut the board with the tracks running length ways down.*
+[[./img/Cutting_board.JPG]]
 [[./img/step_1.JPG]]
 - Next, you will need to get the part for the socket, see the picture below.
 [[./img/parts.JPG]]
