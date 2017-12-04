@@ -6,7 +6,7 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE:Off Board Download Socket
+#+TITLE:BGS LCD display assembly
 #+AUTHOR: Clinton Delport
 
 #+BEGIN_HTML
@@ -105,21 +105,24 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- When designing a PIC circuit using a breadboard, you will need to be able to download your program to the PIC to test it.
-- To do this, we will need to build an off-board download socket.
-- Step one, cut a piece of veroboard, using the 3-in-1 cutter, the board needs to be cut 6 X 8 holes.
-- *Make sure you cut the board with the tracks running length ways down.*
-[[./img/Cutting_board.JPG]]
-[[./img/step_1.JPG]]
-- Next, you will need to get the part for the socket, see the picture below.
-[[./img/parts.JPG]]
-- Place the components as shown and then solder them. 
-- *The 22k resistor is one over from the 100k resistor. Make sure you look carefully at the picture.
-[[./img/topview.JPG]]
-[[./img/bottomview.JPG]]
-- The pinouts are as follows:
-- Red = Program
-- Blue = Status
-- Black = Ground
-[[./img/Pinout.JPG]]
+- Follow the following step-by-step instructions to complete the BGS LCD display.
+- First solder the Arduino Nano to the PCB, then you will need the following components:
+- 120 ohm resistor
+- 1k resistor
+- 10k resistor
+- 100uF electrolytic capacitor
+- 1N4001 diode
+- Header pins
+[[./img/Step_1_LCD.JPG]]
+[[./img/Solder_side1.JPG]]
+- Now you will need to solder the header pins to the LCD display.
+[[./img/Header_pins_LCD.JPG]]
+- Next, join the LCD to the PCB with the header pins, **Make sure the board is the correct way around.**
+[[./img/PCB_LCD_join.JPG]]
+- You will need to solder on top of the board, make sure you do not join the pins together while sodering.
+[[./img/Complete.JPG]]
+- The finished product, there are now 3 pins to connect to your own PCB, 
+- +5V (the red wire), this is the 5V power input
+- Gnd (the black wire), this is the ground or negative
+- Rx (receive input), this is the input form the Genie microcontroller.
 

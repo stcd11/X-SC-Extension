@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Off Board Download Socket</title>
+<title>BGS LCD display assembly</title>
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <style type="text/css">
@@ -137,7 +137,7 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Off Board Download Socket</h1>
+<h1 class="title">BGS LCD display assembly</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
@@ -157,53 +157,64 @@ for the JavaScript code in this tag.
 <h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
-<li>When designing a PIC circuit using a breadboard, you will need to be able to download your program to the PIC to test it.
+<li>Follow the following step-by-step instructions to complete the BGS LCD display.
 </li>
-<li>To do this, we will need to build an off-board download socket.
+<li>First solder the Arduino Nano to the PCB, then you will need the following components:
 </li>
-<li>Step one, cut a piece of veroboard, using the 3-in-1 cutter, the board needs to be cut 6 X 8 holes.
+<li>120 ohm resistor
 </li>
-<li><b>Make sure you cut the board with the tracks running length ways down.</b>
+<li>1k resistor
+</li>
+<li>10k resistor
+</li>
+<li>100uF electrolytic capacitor
+</li>
+<li>1N4001 diode
+</li>
+<li>Header pins
 </li>
 </ul>
 <p>
-<img src="./img/Cutting_board.JPG" alt="Cutting_board.JPG" />
-<img src="./img/step_1.JPG" alt="step_1.JPG" />
+<img src="./img/Step_1_LCD.JPG" alt="Step_1_LCD.JPG" />
+<img src="./img/Solder_side1.JPG" alt="Solder_side1.JPG" />
 </p>
 <ul class="org-ul">
-<li>Next, you will need to get the part for the socket, see the picture below.
+<li>Now you will need to solder the header pins to the LCD display.
 </li>
 </ul>
 
 <div class="figure">
-<p><img src="./img/parts.JPG" alt="parts.JPG" />
+<p><img src="./img/Header_pins_LCD.JPG" alt="Header_pins_LCD.JPG" />
 </p>
 </div>
 <ul class="org-ul">
-<li>Place the components as shown and then solder them. 
-</li>
-<li>*The 22k resistor is one over from the 100k resistor. Make sure you look carefully at the picture.
-</li>
-</ul>
-<p>
-<img src="./img/topview.JPG" alt="topview.JPG" />
-<img src="./img/bottomview.JPG" alt="bottomview.JPG" />
-</p>
-<ul class="org-ul">
-<li>The pinouts are as follows:
-</li>
-<li>Red = Program
-</li>
-<li>Blue = Status
-</li>
-<li>Black = Ground
+<li>Next, join the LCD to the PCB with the header pins, <b><b>Make sure the board is the correct way around.</b></b>
 </li>
 </ul>
 
 <div class="figure">
-<p><img src="./img/Pinout.JPG" alt="Pinout.JPG" />
+<p><img src="./img/PCB_LCD_join.JPG" alt="PCB_LCD_join.JPG" />
 </p>
 </div>
+<ul class="org-ul">
+<li>You will need to solder on top of the board, make sure you do not join the pins together while sodering.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/Complete.JPG" alt="Complete.JPG" />
+</p>
+</div>
+<ul class="org-ul">
+<li>The finished product, there are now 3 pins to connect to your own PCB, 
+</li>
+<li>+5V (the red wire), this is the 5V power input
+</li>
+<li>Gnd (the black wire), this is the ground or negative
+</li>
+<li>Rx (receive input), this is the input form the Genie microcontroller.
+</li>
+</ul>
 </div>
 </div>
 </div>

@@ -48,3 +48,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      
+* [[file:7.html][Project 8 - BGS LCD Display]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:      
