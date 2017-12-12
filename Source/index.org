@@ -52,3 +52,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      
+* [[file:8.html][Project 9 - Storage Box]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:      
