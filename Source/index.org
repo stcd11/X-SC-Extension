@@ -52,7 +52,11 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      
-* [[file:8.html][Project 9 - Storage Box]]
+* [[file:8.html][Project 9 - BGS Safe]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:      
+* [[file:9.html][Project 10 - Breadboarding]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      
