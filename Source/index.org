@@ -56,7 +56,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      
-* [[file:9.html][Project 10 - Breadboarding]]
+* [[https://bournetoinvent.com/projects/7-SC-Boards/][Project 10 - Breadboarding]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      
