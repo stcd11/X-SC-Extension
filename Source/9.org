@@ -1,0 +1,155 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE:BGS Marble Run
+#+AUTHOR: Clinton Delport
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stcd11/X-SC-Extension">Fork me on GitHub</a>
+</div>
+<center>
+<imgzz src='' width=33%>
+</center>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+e* Introduction
+[[file:img/pic.jpg]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: intro
+:END:
+** What are PIC chips?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
+In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
+PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
+Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
+
+While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
+** When would I use a PIC chip?
+Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
+In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
+In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+* Introduction
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Below are all the parts you will need to create your own Marble run.
+- You can gind the template for the laser cutter on the open drive:
+- G:\Design Engineering\Reference\Marble Run
+[[./img/step1.JPG]]
+- From the parts, we are going to start with the wheel.
+- Collect these parts.
+[[./img/step1a.JPG]]
+- You will need to put some PVA glue along the centre shaft and then feed it through the wheel starting with the one end and then adding the centre and the other side.
+[[./img/step2.JPG]]
+[[./img/step4.JPG]]
+[[./img/step5.JPG]]
+- Now you will need to add the 2 spacers either side making sure the shaft is centred.
+[[./img/step7.JPG]]
+- You will now need to get these part, you will now make the spiral.
+[[./img/step8.JPG]]
+- Push out the spiral *GENTlY* and then glue it in place, as shown in the fugure.
+[[./img/step9.JPG]]
+- Leave the glue to dry, we can now start putting togehter the frame.
+- Get these parts.
+[[./img/step10.JPG]]
+- Glue the upright to the base.
+[[./img/step11.JPG]]
+- You can now add the spiral (once it has dried) to the base.
+[[./img/step12.JPG]]
+- Glue the top of the spiral to the upright.
+[[./img/step13.JPG]]
+- Now you can make the guide at the top of the spiral.
+- Get the following parts.
+[[./img/step14.jpg]]
+- Glue the thinner piece on top of the thicker one as shown below.
+[[./img/step15.JPG]]
+- Now place a small anout of glue on the top of spiral.
+[[./img/step16.JPG]]
+- Place the guide on top of this.
+[[./img/step17.JPG]]
+- We are now going to put the guide at the bottom in place.
+[[./img/step18.JPG]]
+- Add the guide to the bottom of the spiral and upright.
+[[./img/step19.JPG]]
+[[./img/step20.JPG]]
+- The following parts need to be glued on top of the bottom guide.
+[[./img/step21.JPG]]
+[[./img/step22.JPG]]
+- You can now glue in the opposite upright and then place the support on top of the 2 uprights.
+[[./img/step23.JPG]]
+- Now you can go about adding the motor and the drive gear.
+
+
