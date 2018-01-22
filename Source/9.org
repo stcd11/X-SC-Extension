@@ -106,8 +106,8 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: activity
 :END:
 - Below are all the parts you will need to create your own Marble run.
-- You can gind the template for the laser cutter on the open drive:
-- G:\Design Engineering\Reference\Marble Run
+- You can find the template for the laser cutter on the open drive:
+- *G:\Design Engineering\Reference\Marble Run*
 [[./img/step1.JPG]]
 - From the parts, we are going to start with the wheel.
 - Collect these parts.
