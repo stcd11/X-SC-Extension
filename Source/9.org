@@ -150,6 +150,45 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 [[./img/step22.JPG]]
 - You can now glue in the opposite upright and then place the support on top of the 2 uprights.
 [[./img/step23.JPG]]
-- Now you can go about adding the motor and the drive gear.
+- This is what the moving parts looks like.
+[[./img/step24.JPG]]
+[[./img/step25.JPG]]
+- Now we are going to attach the motor.
+- You will need to removed the motor and the drive shaft from the housing.
+[[./img/step27.JPG]]
+[[./img/step28.JPG]]
+- You will then need to countersink the bottom of the product (the base) to fit the countersink screws.
+[[./img/step30.JPG]]
+- Collect the M3 X 15mm screws and 5mm plastic spacers along with the M3 nuts (4 of each)
+[[./img/step31.JPG]]
+- Push the screws through the bottom and place the 5mm spacer on top of this.
+[[./img/step32.JPG]]
+- Next place the motor housing on top of this and then screw it down.
+- *You will need to use long nose pliers to hold the back nuts in place.*
+[[./img/step33.JPG]]
+- You will now need to feed the shaft through the drive gear and motor housing connecting it in place.
+[[./img/step34.JPG]]
+[[./img/step35.JPG]]
+[[./img/step36.JPG]]
+- We will now need to prepare some epoxy glue.
+- Start by squeezing out equal measurements of resin and hardner onto a piece of paper.
+[[./img/step38.JPG]]
+- You will now need to mix them together well, *mix for at least 1 minute.*
+[[./img/step39.JPG]]
+- Place the glue onto the drive shaft and pinion gear, *make sure no glue goes into the gears itself.*
+- *Once you have glued this in place, you will need to leave it for 24 hours to harden.*
+[[./img/step40.JPG]]
+[[./img/step41.JPG]]
+- You will need to solder two 1N4001 rectifier diodes onto the positive terminal of the DC motor.
+[[./img/step42.JPG]]
+- Place some grey heatshrink onto the positive (red) wire and the solder in place.
+[[./img/step43.JPG]]
+[[./img/step44.JPG]]
+- Now use the soldering iron to shrink the heatshrink.
+[[./img/step45.JPG]]
+- Your marble run is now ready to go.
+- Place 3 to 4 marbles into the run and turn on the switch.
+[[./img/step46.JPG]]
+[[./img/step47.JPG]]
 
 
