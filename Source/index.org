@@ -24,7 +24,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[file:2.html][Project 2 - Marble Run ]]
+* [[file:2.html][Project 2 - Headphone Splitter ]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:

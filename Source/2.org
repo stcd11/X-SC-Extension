@@ -6,8 +6,8 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Marble Run Mechanism
-#+AUTHOR: Clinton Delport
+#+TITLE: Headphone Splitter
+#+AUTHOR: Alex Williams
 
 #+BEGIN_HTML
 <div class=ribbon>
@@ -106,23 +106,67 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- Go online and Research ideas for a Marble Run mechanism. There are many great ideas to get you started with your own design.
-** Solidworks Designs
+- *Disclaimer: The project is intended for learning purposes only, do not use in your own devices.*
+- You are going to make a headphone splitter inspired by and designed by A. Williams.
+** Wiring the input sockets
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: design
 :END:
-- Below are pictures of a marble run mechanism which was made using the software and equipment in the Systems & Control department.
+- Below are pictures of how the input sockets are connected.
+- *Ensure you are using stereo input sockets.* 
+- Ask your teacher to check if you are not sure.
 
-[[./img/Mech1.jpg]]
-[[./img/Mech2.jpg]]
-[[./img/Mech3.jpg]]
+[[./img/headphone_splitter1.JPG]]
+[[./img/headphone_splitter2.JPG]]
 
-- Use solidworks to design your own mechanism, which can automatically raise a marble to the top and then let gravity feed it down.
-- You will need to connect a electric motor to it to allow it to run automatically.
- 
-** Badge it
+** Building the housing
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: badge it 
+:HTML_CONTAINER_CLASS: build
 :END:
-- Show your finished work to your teacher. This work will be added to your current project as an extension activity.
+- You will need to laser cut the parts.
+- The cutting sheet can be found on the open drive: Design Engineering/Extension tasks/Headphone splitter.
+- *You will need to change the black engrave colour to custom blue.*
+- Here are all the parts you will need once it is cut out.
+
+[[./img/headphone_splitter3.JPG]]
+
+- The nuts on the end of the inout sockets need undoing and the end caps placed onto the and then the nuts need to be refitted.
+
+[[./img/headphone_splitter4.JPG]]
+[[./img/headphone_splitter5.JPG]]
+
+- You need to place a little glue on the side caps and then glue the end pieces in place.
+
+[[./img/headphone_splitter6.JPG]]
+[[./img/headphone_splitter7.JPG]]
+
+- Now the 2 sides need gluing in place.
+
+[[./img/headphone_splitter8.JPG]]
+
+- The middle parts need adding and then follow the next few steps.
+
+[[./img/headphone_splitter9.JPG]]
+[[./img/headphone_splitter10.JPG]]
+[[./img/headphone_splitter11.JPG]]
+[[./img/headphone_splitter12.JPG]]
+[[./img/headphone_splitter13.JPG]]
+[[./img/headphone_splitter14.JPG]]
+[[./img/headphone_splitter15.JPG]]
+
+- You now need to push a M3 X 35mm screw through the splitter and tighten a nut on the other side.
+
+[[./img/headphone_splitter16.JPG]]
+[[./img/headphone_splitter17.JPG]]
+[[./img/headphone_splitter18.JPG]]
+[[./img/headphone_splitter19.JPG]]
+
+- You final headphone splitter will look like this.
+
+[[./img/headphone_splitter20.JPG]]
+[[./img/headphone_splitter21.JPG]]
+
+- You will need the 3.5mm stereo cables to connect your supposed devices.
+
+
 
