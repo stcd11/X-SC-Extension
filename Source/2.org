@@ -154,7 +154,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 [[./img/headphone_splitter14.JPG]]
 [[./img/headphone_splitter15.JPG]]
 
-- You now need to push a M3 X 35mm screw through the splitter and tighten a nut on the other side.
+- You now need to push a M3 X 25mm screw through the splitter and tighten a nut on the other side.
 
 [[./img/headphone_splitter16.JPG]]
 [[./img/headphone_splitter17.JPG]]
