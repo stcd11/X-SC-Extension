@@ -139,7 +139,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 5. Make 2 more holes on the middle right and left of the board and the 4 (8cm) wires through those holes (therefore 2 for 1 hole and 2 for the other).
 6. Get the screw driver and loosen all the screws on the motor driver.
 7. Put the 8cm wires into the holes on the sides of the motor driver and screw them down as tight as you can. 
-8. Hot glue the P3 battery snap and the Bluetooth module to the rectangular piece of wood.
+8. Hot glue the PP3 battery snap and the Bluetooth module to the rectangular piece of wood.
 [[./img/Motor_wiring.jpg]]
 ** Connecting Wires
 :PROPERTIES:
