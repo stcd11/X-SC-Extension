@@ -313,83 +313,63 @@ for the JavaScript code in this tag.
 <li>Here is the code for the Arduino:
 </li>
 </ul>
-
-<p>
-char t;
-</p>
-
-<p>
-void setup() {
-pinMode(13,OUTPUT);   //left motors forward
-pinMode(12,OUTPUT);   //left motors reverse
-pinMode(11,OUTPUT);   //right motors forward
-pinMode(10,OUTPUT);   //right motors reverse
-pinMode(9,OUTPUT);   //Led
-Serial.begin(9600);
-</p>
-
-<p>
-}
-</p>
-
-<p>
-void loop() {
-if(Serial.available()){
-  t = Serial.read();
-  Serial.println(t);
-}
-</p>
-
-<p>
-if(t == 'F'){
-  digitalWrite(13,HIGH);
-  digitalWrite(11,HIGH);
-}
-</p>
-
-<p>
-else if(t == 'B'){
-  digitalWrite(12,HIGH);
-  digitalWrite(10,HIGH);
-}
-</p>
-
-<p>
-else if(t == 'L'){
-  digitalWrite(13,HIGH);
-  digitalWrite(10,HIGH);
-}
-</p>
-
-<p>
-else if(t == 'R'){
-  digitalWrite(11,HIGH);
-  digitalWrite(12,HIGH);
-}
-</p>
-
-<p>
-else if(t == 'W'){
-  digitalWrite(9,HIGH);
-}
-else if(t == 'w'){
-  digitalWrite(9,LOW);
-}
-</p>
-
-<p>
-else if(t == 'S'){
-  digitalWrite(13,LOW);
-  digitalWrite(12,LOW);
-  digitalWrite(11,LOW);
-  digitalWrite(10,LOW);
-}
-delay(100);
-}
+<p class="verse">
+char t;<br  />
+<br  />
+void setup() {<br  />
+pinMode(13,OUTPUT);   //left motors forward<br  />
+pinMode(12,OUTPUT);   //left motors reverse<br  />
+pinMode(11,OUTPUT);   //right motors forward<br  />
+pinMode(10,OUTPUT);   //right motors reverse<br  />
+pinMode(9,OUTPUT);   //Led<br  />
+Serial.begin(9600);<br  />
+<br  />
+}<br  />
+<br  />
+void loop() {<br  />
+if(Serial.available()){<br  />
+&#xa0;&#xa0;t = Serial.read();<br  />
+&#xa0;&#xa0;Serial.println(t);<br  />
+}<br  />
+<br  />
+if(t == 'F'){<br  />
+&#xa0;&#xa0;digitalWrite(13,HIGH);<br  />
+&#xa0;&#xa0;digitalWrite(11,HIGH);<br  />
+}<br  />
+<br  />
+else if(t == 'B'){<br  />
+&#xa0;&#xa0;digitalWrite(12,HIGH);<br  />
+&#xa0;&#xa0;digitalWrite(10,HIGH);<br  />
+}<br  />
+<br  />
+else if(t == 'L'){<br  />
+&#xa0;&#xa0;digitalWrite(13,HIGH);<br  />
+&#xa0;&#xa0;digitalWrite(10,HIGH);<br  />
+}<br  />
+<br  />
+else if(t == 'R'){<br  />
+&#xa0;&#xa0;digitalWrite(11,HIGH);<br  />
+&#xa0;&#xa0;digitalWrite(12,HIGH);<br  />
+}<br  />
+<br  />
+else if(t == 'W'){<br  />
+&#xa0;&#xa0;digitalWrite(9,HIGH);<br  />
+}<br  />
+else if(t == 'w'){<br  />
+&#xa0;&#xa0;digitalWrite(9,LOW);<br  />
+}<br  />
+<br  />
+else if(t == 'S'){<br  />
+&#xa0;&#xa0;digitalWrite(13,LOW);<br  />
+&#xa0;&#xa0;digitalWrite(12,LOW);<br  />
+&#xa0;&#xa0;digitalWrite(11,LOW);<br  />
+&#xa0;&#xa0;digitalWrite(10,LOW);<br  />
+}<br  />
+delay(100);<br  />
+}<br  />
 </p>
 </div>
 </div>
-
 <div id="outline-container-sec-1-6" class="outline-3 build">
 <h3 id="sec-1-6">Build It</h3>
 <div class="outline-text-3" id="text-1-6">

@@ -181,7 +181,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: code
 :END:
 - Here is the code for the Arduino:
-
+#+BEGIN_VERSE
 char t;
  
 void setup() {
@@ -235,7 +235,7 @@ else if(t == 'S'){
 }
 delay(100);
 }
-
+#+END_VERSE
 ** Build It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
