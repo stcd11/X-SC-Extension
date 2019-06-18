@@ -64,3 +64,11 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      
+* [[file:10.html][Project 12 - Door Buzzer Version 2]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:      
+* [[file:11.html][Project 13 - Bluetooth Robot]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:      

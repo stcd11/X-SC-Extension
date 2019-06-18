@@ -1,0 +1,247 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE:Bluetooth Robot
+#+AUTHOR: Dhruva
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stcd11/X-SC-Extension">Fork me on GitHub</a>
+</div>
+<center>
+<imgzz src='' width=33%>
+</center>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+e* Introduction
+[[file:img/pic.jpg]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: intro
+:END:
+** What are PIC chips?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
+In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
+PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
+Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
+
+While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
+** When would I use a PIC chip?
+Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
+In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
+In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+* Introduction
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Parts and Tools required
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- 4 High torque DC motors (aka Gear Motors)
+- Motor wheels 
+- Motor Driver
+- Arduino UNO or Nano (with USB)
+- Bluetooth Module (HC-06 preferable)
+- Small rectangular piece of Plywood (2 the same size)(~15cm)
+- Hot Glue Gun
+- PP3 Battery Snap
+- 9V PP3 Battery
+- Drill (with a 3mm dill bit)
+- Power bank (3000mAh is sufficient)
+- Soldering Iron
+- Wire cutters/strippers
+- Small Screwdriver
+- Male to male jumper cables
+- Female to male jumper cables
+- Red and black wires (general)
+- M3 screws and nuts
+- And finally a phone to control your masterpiece.
+** Build
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+1. Get the wire stripper and strip the ends of the wires (small wires like ~4cm) do this to 4 wires of the equivalent length and then strip 4 (8cm) wires.
+2. Then using the soldering iron solder the 4cm wires oppositely to the motors and then solder and 2 of the 8cm wires to one motor.
+3. Do step 2 to the other pair and then hot glue them to opposite ends of the rectangular piece of wood afterwards hot glue the other on top of the motors so that the motors are sandwiched to the rectangular board.
+4. Then take your Arduino UNO and make dots where the holes are, do the same with the motor driver and then drill those holes and put m3 screws on then with the UNO and motor driver on and put nuts on them.
+5. Make 2 more holes on the middle right and left of the board and the 4 (8cm) wires through those holes (therefore 2 for 1 hole and 2 for the other).
+6. Get the screw driver and loosen all the screws on the motor driver.
+7. Put the 8cm wires into the holes on the sides of the motor driver and screw them down as tight as you can. 
+8. Hot glue the P3 battery snap and the Bluetooth module to the rectangular piece of wood.
+[[./img/Motor_wiring.jpg]]
+** Connecting Wires
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- *Bluetooth Module to the UNO:*
+1. Using male to female jumper wires to:
+2. Connect the VCC of the Bluetooth module to the 5V on the UNO.
+3. Connect the GND to GND next to the 5V on the UNO.
+4. Connect the TX on the Bluetooth module to the RX on the UNO.
+5. Connect the RX on the Bluetooth module to the TX on the UNO.
+- *Motor Driver to the UNO:*
+1. Use 4 male to female jumper wires to:
+2. Connect the IN1 on the Motor Driver to Digital 10.
+3. Connect the IN2 on the Motor Driver to Digital 11.
+4. Connect the IN3 on the Motor Driver to Digital 12.
+5. Connect the IN4 on the Motor Driver to Digital 13.
+- *UNO to the Motor Driver:*
+1. Using Male to Male jumper cables:
+2. Connect the VIN of the UNO to the connector next to where the jumper cables are.
+3. Connect the GND to the middle connector with the black wire on the P3 Battery Snap and screw them up
+- *PP3 Battery Snap to the Motor Driver:*
+1. Connect the Red wire on the P3 battery snap to the last open connector and screw it up.
+- *Now it is time to put on the wheels.*
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Download the free Arduino app on the Arduino website onto your computer/PC and copy the code and paste the code on the Arduino app then connect the USB given with the UNO and connect one to the UNO and the other to the computer. 
+- Go to tools and on boards select Arduino/Genuino UNO and select the appropriate port as well which the UNO is connected to. 
+- Then Press the upload button and after it has said “Done Uploading” take the USB out and connect it to your power bank and put it in the sandwiched part of your base, if it doesn’t fit then just put it on top.
+- Now connect the 9V battery.
+- You need to download the RC Bluetooth Control Car on your phone.
+- Then turn on your Bluetooth and press the settings icon, connect to car and select HC-06 or whatever Bluetooth module you have is called and if the light on the left goes from red to green that means it is connected and you can use the buttons now to control your car.
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Here is the code for the Arduino:
+
+char t;
+ 
+void setup() {
+pinMode(13,OUTPUT);   //left motors forward
+pinMode(12,OUTPUT);   //left motors reverse
+pinMode(11,OUTPUT);   //right motors forward
+pinMode(10,OUTPUT);   //right motors reverse
+pinMode(9,OUTPUT);   //Led
+Serial.begin(9600);
+ 
+}
+ 
+void loop() {
+if(Serial.available()){
+  t = Serial.read();
+  Serial.println(t);
+}
+ 
+if(t == 'F'){
+  digitalWrite(13,HIGH);
+  digitalWrite(11,HIGH);
+}
+ 
+else if(t == 'B'){
+  digitalWrite(12,HIGH);
+  digitalWrite(10,HIGH);
+}
+ 
+else if(t == 'L'){
+  digitalWrite(13,HIGH);
+  digitalWrite(10,HIGH);
+}
+ 
+else if(t == 'R'){
+  digitalWrite(11,HIGH);
+  digitalWrite(12,HIGH);
+}
+
+else if(t == 'W'){
+  digitalWrite(9,HIGH);
+}
+else if(t == 'w'){
+  digitalWrite(9,LOW);
+}
+ 
+else if(t == 'S'){
+  digitalWrite(13,LOW);
+  digitalWrite(12,LOW);
+  digitalWrite(11,LOW);
+  digitalWrite(10,LOW);
+}
+delay(100);
+}
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- Here are the finished picture of the car.
+[[./img/Buggy_1.JPG]]
+[[./img/Buggy_2.JPG]]
+[[./img/Buggy_3.JPG]]
+[[./img/Buggy_4.JPG]]
