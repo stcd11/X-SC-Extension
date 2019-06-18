@@ -6,7 +6,7 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE:Bluetooth Robot
+#+TITLE:Dhruva's Bluetooth Robot
 #+AUTHOR: Dhruva
 
 #+BEGIN_HTML
@@ -162,7 +162,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 2. Connect the VIN of the UNO to the connector next to where the jumper cables are.
 3. Connect the GND to the middle connector with the black wire on the P3 Battery Snap and screw them up
 - *PP3 Battery Snap to the Motor Driver:*
-1. Connect the Red wire on the P3 battery snap to the last open connector and screw it up.
+1. Connect the Red wire on the PP3 battery snap to the last open connector and screw it up.
 - *Now it is time to put on the wheels.*
 
 ** Code It
@@ -182,6 +182,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :END:
 - Here is the code for the Arduino:
 #+BEGIN_VERSE
+
 char t;
  
 void setup() {
