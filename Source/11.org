@@ -175,7 +175,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Now connect the 9V battery.
 - You need to download the RC Bluetooth Control Car on your phone.
 - Then turn on your Bluetooth and press the settings icon, connect to car and select HC-06 or whatever Bluetooth module you have is called and if the light on the left goes from red to green that means it is connected and you can use the buttons now to control your car.
-
+- *You will need to diconnect the Rx and Tx pins before uploading the code.*
 ** Code It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: code
