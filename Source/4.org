@@ -126,7 +126,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :END:
 - Below is a picture of an example board.
 - *Note* how the components are as close to the board as possible, along with the jump wires.
-[[./img/complete555.jpg]]
+[[./img/complete555V2.jpg]]
 [[./img/completesolder555.jpg]] 
 [[./img/555vid.gif]]
 
