@@ -109,7 +109,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 [[./img/Circuit555.JPG]]
 - You can find DIYlc [[G:\Systems%20and%20Control\Student%20Home%20software\DIYlc][here]] on the open drive *G:\Systems and Control\Student Home software\DIYlc*.
 - below is an example, but you can create your own design.
-[[./img/555_stripboard.JPG]]
+[[./img/Circuit555V2.JPG]]
 - Once you have designed your board, you can get a piece of veroboard and cut it to size, by counting the holes on your own design.
 ** Breaking the tracks
 :PROPERTIES:
