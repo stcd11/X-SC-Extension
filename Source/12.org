@@ -110,7 +110,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: learn
 :END:
 - After the kit is successfully produced, as the music or other sounds sound, the five LED lights follow the rhythm of the sound (the speed of the sound) and move. It can be placed near the sound, you can feel the beautiful melody combination of sound and light, let the light dance with music!
-- The voice-activated LED melody lamp circuit is composed of a power supply circuit, a microphone amplifying circuit and an LED lighting indicating circuit. The power source is input by J1, and the C1 filter is used for the circuit. The MIC1 converts the sound signal into an electrical signal, which is coupled to Q1 by C2, and the amplified signal is sent to the base of Q2. The LED is illuminated by Q2. The louder the sound, the higher the brightness of the LED.
+- The voice-activated LED melody lamp circuit is composed of a power supply circuit, a microphone amplifying circuit and an LED lighting indicating circuit. The power source is input by 9V battery, and the C1 filter is used for the circuit. The MIC1 (replaced with a potentionmeter as Circuit Wizard does not have a Mic) converts the sound signal into an electrical signal, which is coupled to Q2 by C2, and the amplified signal is sent to the base of Q2. The LED is illuminated by Q2. The louder the sound, the higher the brightness of the LED.
 ** Design It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: design
@@ -135,7 +135,8 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Please note the mocrophone has a positive and negative wire. See below.
 [[./img/Microphone_negative.jpg]]
 - Carefully place the components into the PCB and solder them in place.
-
+[[./img/Sound_activated_solder.jpg]]
+[[./img/Sound_activated_component_side.jpg]]
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
