@@ -129,7 +129,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :END:
 - Ask your Teacher for a PCB, you will forst need to drill the holes for the PCB. Please ensure you follow the safety rules, if you are unsure, ask your teacher.
 [[./img/Sound_PCB2.jpg]]
-[[./img/Sound_PCB_drill.jpg]]
+[[./img/Sound_PCB_drill_V2.jpg]]
 - Below are images and labels of the components you will need. Don't forget to include a battery snap.
 [[./img/Sound_PCB_components.jpg]]
 - Please note the mocrophone has a positive and negative wire. See below.
