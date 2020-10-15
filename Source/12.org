@@ -1,0 +1,145 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Sound Activated Light
+#+AUTHOR: Clinton Delport and Paul Dougall
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stcd11/X-SC-Extension">Fork me on GitHub</a>
+</div>
+<center>
+<imgzz src='' width=33%>
+</center>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+e* Introduction
+[[file:img/pic.jpg]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: intro
+:END:
+** What are PIC chips?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
+In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
+PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
+Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
+
+While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
+** When would I use a PIC chip?
+Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
+In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
+In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+* Introduction
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- After the kit is successfully produced, as the music or other sounds sound, the five LED lights follow the rhythm of the sound (the speed of the sound) and move. It can be placed near the sound, you can feel the beautiful melody combination of sound and light, let the light dance with music!
+- The voice-activated LED melody lamp circuit is composed of a power supply circuit, a microphone amplifying circuit and an LED lighting indicating circuit. The power source is input by J1, and the C1 filter is used for the circuit. The MIC1 converts the sound signal into an electrical signal, which is coupled to Q1 by C2, and the amplified signal is sent to the base of Q2. The LED is illuminated by Q2. The louder the sound, the higher the brightness of the LED.
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+[[./img/Sound_light.jpg]]
+- Click [[./img/sound_activated_LEDs.cwz][here]] to download the Circuit Wizard file.
+- *The Circuit Principle*
+- You will now need to drill and then  populate the PCB, ask your teacher for the PCB.
+- Below is a picture of the Circuit Wizard PCB, you can also look at the Circuit Wizard file to get the values of you are unsure.
+[[./img/Sound_PCB.jpg]]
+- Here is also a picture of the artwork, remember that this is what the board looks like from the component side, not the solder side.
+[[./img/Sound_artwork.jpg]]
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- Ask your Teacher for a PCB, you will forst need to drill the holes for the PCB. Please ensure you follow the safety rules, if you are unsure, ask your teacher.
+[[./img/Sound_PCB2.jpg]]
+[[./img/Sound_PCB_drill.jpg]]
+- Below are images and labels of the components you will need. Don't forget to include a battery snap.
+[[./img/Sound_PCB_components.jpg]]
+- Please note the mocrophone has a positive and negative wire. See below.
+[[./img/Microphone_negative.jpg]]
+- Carefully place the components into the PCB and solder them in place.
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Once you have completed the sound activated light project, show your it to your teacher.
+- These marks will be added to your current project.
+  
