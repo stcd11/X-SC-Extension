@@ -131,12 +131,13 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 [[./img/Sound_PCB2.jpg]]
 [[./img/Sound_PCB_drill_V2.jpg]]
 - Below are images and labels of the components you will need. Don't forget to include a battery snap.
-[[./img/Sound_PCB_components.jpg]]
+- *You can choose any colour LED, but all 6 LEDs must end up being the same colour.*
+[[./img/Sound_PCB_componentsV2.jpg]]
 - Please note the mocrophone has a positive and negative wire. See below.
 [[./img/Microphone_negative.jpg]]
 - Carefully place the components into the PCB and solder them in place.
 [[./img/Sound_activated_solder.jpg]]
-[[./img/Sound_activated_component_side.jpg]]
+[[./img/Sound_activated_component_side_V2.jpg]]
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
